@@ -5,3 +5,9 @@ numbers.each do |number|
     then puts number
   end
 end
+
+numbers.each do |number|
+  if number <= 60
+    then puts number
+  end
+end
